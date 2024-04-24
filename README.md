@@ -1,2 +1,2 @@
 # Sem2_WebDesigning
-All labs and practise codes.
+All labs and practice codes.
