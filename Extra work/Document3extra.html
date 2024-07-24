@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document 3 EXTRA</title>
+    <style>
+        fieldset{
+            width: fit-content;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1><b>Student Registration</b></h1>
+    <fieldset>
+        <legend align="center">Pesonal Information</legend>
+        <table><tr>
+            <td>Name*</td>
+            <td><input type ="text" placeholder="Enter your name" required></td>
+            <td>Password*</td>
+            <td><input type ="password" placeholder="Enter your password" required></td>
+        </tr>
+        <tr>
+            <td>Email*</td>
+            <td colspan="3" ><input type ="email" placeholder="Enter your email" required style="width: 500px;"></td>
+        </tr>
+        <tr>
+            <td>Mobile Number</td>
+            <td><input type ="number" placeholder="Enter your mobile number" required></td>
+            <td>Date of Birth</td>
+            <td><input type ="date"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><input type="radio" name="gender">Male<br>
+                <input type="radio" name="gender">Female</td>
+            <td>Hobbies</td>
+            <td><input type="checkbox" name="gender">Reading<br>
+                <input type="checkbox" name="gender">Singing<br>
+                <input type="checkbox" name="gender">Cricket<br>
+                <input type="checkbox" name="gender">Swimming</td>
+        </tr>
+        <tr>
+            <td>CGPA</td>
+            <td colspan="3"><input type="range" min="0" max="10.00">10.00 <input type ="button" value="OR"><input type ="text" ></td>
+           
+        </tr>
+        <tr>
+            <td>Insert Resume</td>
+            <td><input type ="file"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>LinkedIn URL</td>
+            <td colspan="3"><input type="url" placeholder="Please enter URL"></td>
+            
+        </tr>
+        <tr align="center">
+            <td colspan="4"><input type="button" value="Submit" ><input type="button" value="Reset" ></td>
+            
+        </tr></table>
+    </fieldset>
+    <table align="center">
+        <tr>
+            <td height="50px">Comments</td>
+        </tr>
+        <tr><td> <textarea cols="100"></textarea> </td></tr>
+    </table>
+</form>
+</body>
+</html>
