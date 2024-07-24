@@ -1,0 +1,12 @@
+.backgroundimage{
+    position: relative;
+
+}
+.logo{
+    position: absolute;
+    top:10px;
+}
+.content1{
+    position: absolute;
+    top:10px;
+}

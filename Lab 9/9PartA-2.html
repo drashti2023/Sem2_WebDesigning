@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9PartA-2</title>
+    <style>
+        .background {
+            background-color: white;
+            height: 1000px;
+            width: 1000px;
+
+        }
+
+        .a2 {
+            background-color: black;
+            width: 400px;
+            height: 400px;
+            animation: box;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+            animation-timing-function: linear;
+            position: absolute;
+        }
+
+        @keyframes box {
+            0% {
+                left: 0px;
+                top: 0px;
+                background-color: brown;
+            }
+
+            25% {
+                left: 500px;
+                top: 0px;
+                background-color: aqua;
+            }
+
+            50% {
+                left: 500px;
+                top: 700px;
+                background-color: beige;
+            }
+
+            75% {
+                left: 0px;
+                top: 700px;
+                background-color: cornflowerblue;
+            }
+
+            100% {
+                left: 0px;
+                top: 0px;
+                background-color: darkmagenta;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background">
+        <div class="a2">content</div>
+    </div>
+</body>
+
+</html>
