@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lab 14 B</title>
+	<style>
+		.fieldset{
+			border: 50px solid white;
+			 height: 750px; 
+			 width: 100%; 
+             background: linear-gradient(to bottom,rgb(230, 215, 223), rgb(234, 149, 213), rgb(243, 164, 206), rgb(236, 180, 208))
+
+		}
+		.C1{
+			box-sizing: border-box;
+			height: 500px;
+			width: 80%;
+			position: absolute;
+			top: 150px;
+			left: 350px;
+			background-color: #f2f2f2;
+		}
+		.P1{
+			height: 100%;
+			width: 50%;
+			background-color: #f2f2f2;
+			float: left;
+		}
+		.P2{
+			height: 100%;
+			width: 10%;
+			background-color: #f2f2f2;
+			float: right;
+		}
+		.para1{
+			position: absolute;
+			display: flex;
+			gap: 80px;
+			top: 320px;
+			left: 470px;
+		}
+		.para2{
+			position: absolute;
+			display: flex;
+			top: 340px;
+			left: 35%;
+		}
+		.para3{
+			position: absolute;
+			top: 400px;
+			left: 35%;
+		}
+		.other{
+			float:right;
+		}
+		.side1{
+			box-sizing: border-box;
+			position: absolute;
+			top: 650px;
+			left: 23.05%;
+			height: 80px;
+			width: 79.95%;
+			background-color: #f2f2f2;
+			border: 1px solid #f2f2f2;
+			box-shadow: 1px 1px 1px 1px lightgray;;
+		}
+	</style>
+</head>
+<body>
+  <center>
+   <fieldset class="fieldset">
+    	<div class="C1">
+    	<div class="P1">
+    		<img src="dorm.jpg" height="500px" width="416px" style="position: absolute;
+    		top: 0px; left: 0px;">
+    	</div>
+    	<div class="P2">
+    		<p style="color: blue; position: absolute; top: 10px; left: 35%;">Back to bedroom</p>
+         <p style="color: gray; font-size: 10px; position: absolute; top: 40px; left: 35%;">BEDROOM</p>
+         <p style="font-weight: bold; font-size: 20px; position: absolute; top: 50px; left: 35%;">College Essentials</p>
+         <p style="font-weight: bold; font-size: 12px; position: absolute; top: 90px; left: 35%;">Select Quality</p>
+         	<table border="1" cellspacing="0" style="font-size: 15px; position: absolute; top: 120px; left: 35%;">
+         		<tr>
+         			<td>Basic</td>
+         			<td style="background-color: lightgray;">Premium</td>
+         		</tr>
+         	</table>
+         	<p style="font-weight: bold; font-size: 12px; position: absolute; top: 150px; left: 35%;">Style</p>
+         	<nav style="display: flex; gap: 10px; position: absolute; top: 185px; left: 35%;">
+         		<button style="border: 1px solid black; height: 20px; width: 60px; border-radius: 10px;">Minimal</button>
+         		<button style="border: 1px solid black; height: 20px; width: 70px; border-radius: 10px;">Bohemian</button>
+         		<button style="border: 1px solid black; height: 20px; width: 50px; border-radius: 10px;">Floral</button>
+         		<button style="border: 1px solid black; height: 20px; width: 50px; border-radius: 10px;">Other</button>
+         	</nav>
+         	<p style="font-weight: bold; font-size: 12px; position: absolute; top: 200px; left: 35%;">Color</p>
+         	<nav style="display: flex; gap: 10px; position: absolute; top: 230px; left: 35%;">
+         		<button style="border: 1px solid aqua; height: 15px; width: 10px; border-radius: 100%; background-color: aqua;"></button>
+         		<button style="border: 1px solid black; height: 15px; width: 10px; border-radius: 100%; background-color: black;"></button>
+         		<button style="border: 1px solid lightgray; height: 15px; width: 10px; border-radius: 100%; background-color: lightgray;"></button>
+         		<button style="border: 1px solid lightgray; height: 15px; width: 10px; border-radius: 100%;"></button>
+         	</nav>
+            	<p style="font-weight: bold; font-size: 12px; position: absolute; top: 245px; left: 35%;">Size</p>
+         	<nav style="display: flex; gap: 10px; position: absolute; top: 280px; left: 35%;">
+         		<button style="border: 1px solid black; height: 20px; width: 90px; border-radius: 10px;">Twin XL</button>
+         		<button style="border: 1px solid black; height: 20px; width: 70px; border-radius: 10px;">Full</button>
+         	</nav>
+         	<div class="para1">
+         		<div>What's inside</div>
+         		<div>Reviews</div>
+         		<div>FAQs</div>
+         	</div>
+       <div class="para2">
+         		<div style="color: darkblue;">______</div>
+         		<div style="color: lightgray;">______</div>
+         		<div style="color: lightgray;">______</div>
+         	</div>  
+        <p style="font-weight: bold; font-size: 12px; position: absolute; top: 375px; left: 35%;">Customizable items</p> 
+        <div class="para3">
+        	<img src="blush.jpeg" height="100px" width="70px" style="float: left;">
+        	<div class="other">
+        		<p style="margin-left: 20px;">Blush Plush Comforter</p>
+        		<p style="font-size: 10px;">See Product details</p>
+        	</div>
+        </div>	
+      </div>
+    </div>
+    <div class="side1">
+    	<div >
+    		<img src="dorm.jpg" height="50px" width="50px" style="position: absolute; left: 30px; top: 15px;">
+    		<p style="font-weight: bold; position: absolute; top: 2px; left: 90px;">College Essentials</p>
+    		<p style="font-weight: lighter; font-size: 10px; position: absolute; top: 30px; left: 90px;">Everything you need for freshman year.</p>
+    		<div style="border: 1px solid black; height: 50px; width: 50px; position: absolute; top: 15px; left: 35%;">
+    			<div style="font-size: 20px; position: absolute; top: 15px; left: 20px; font-weight: bolder;">+</div>
+    		</div>
+    	</div>
+    	<h3 style="position: absolute; top: 15px; left: 45%;">$195</h3>
+    	<button style="position: absolute; top: 25px; left: 55%; height: 40px; width: 150px; background-color: blue; border-radius: 8px; color: white; border: 1px solid blue;">Add to cart(2)</button>
+    </div>
+    </fieldset>	
+</center>
+</body>
+</html>
